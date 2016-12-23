@@ -8,6 +8,10 @@
     angular
         .module('fuse', [
 
+            'uiGmapgoogle-maps',
+            'textAngular',
+            'xeditable',
+
             // Core
             'app.core',
 
@@ -21,6 +25,9 @@
             'app.quick-panel',
 
             // Sample
-            'app.sample'
+            'app.sample',
+
+            'app.calendar',
+            'app.mail'
         ]);
 })();
