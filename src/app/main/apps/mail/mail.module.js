@@ -71,6 +71,8 @@
         msApiProvider.register('mail.folder.starred', ['app/data/mail/folders/starred.json']);
         msApiProvider.register('mail.folder.important', ['app/data/mail/folders/important.json']);
 
+        msApiProvider.register('mail.folder.newenquiries', ['http://salie.safarinow.com:85/Establishment/GetNewEnquiries']);
+
         // Navigation
         msNavigationServiceProvider.saveItem('apps.mail', {
             title      : 'Mail',

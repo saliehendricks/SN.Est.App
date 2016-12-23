@@ -41,6 +41,12 @@
             "name": "important",
             "title": "Important",
             "icon": "icon-label"
+        },
+        {
+            "id": 8,
+            "name": "newenquiries",
+            "title": "Enquiries",
+            "icon": "icon-inbox"
         }
     ]
 }
